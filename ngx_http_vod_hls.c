@@ -27,7 +27,7 @@
 	VOD_CODEC_FLAG(FLAC))
 
 // content types
-static u_char m3u8_content_type[] = "application/vnd.apple.mpegurl";
+static u_char m3u8_content_type[] = "application/x-mpegURL";
 static u_char encryption_key_content_type[] = "application/octet-stream";
 static u_char mpeg_ts_content_type[] = "video/MP2T";
 static u_char vtt_content_type[] = "text/vtt";
